@@ -5,20 +5,6 @@ Code accompanying the paper **"Doughnut or Mickey Mouse? Detecting Toroidal Stru
 This repository provides an implementation and tutorial for computing the **persistent cup-length**, an algebraic-topological invariant, compatible with persistent cohomology computed using [Ripser](https://github.com/scikit-tda/ripser) (for Vietoris-Rips filtrations) and [Dionysus](https://www.mrzv.org/software/dionysus/) (for simplexwise filtrations).
 
 ---
-## 🧪 Citation
-
-If you use this code in your research, please cite the associated paper:
-
-``` @misc{ivshina2025doughnutmickeymousedetecting,
-      title={Doughnut or Mickey Mouse? Detecting Toroidal Structure in Data through Persistent Cup-Length}, 
-      author={Ekaterina S. Ivshina and Galit Anikeeva and Ling Zhou},
-      year={2025},
-      eprint={2507.11151},
-      archivePrefix={arXiv},
-      primaryClass={math.AT},
-      url={https://arxiv.org/abs/2507.11151}, 
-}
-```
 
 ## 📖 Overview
 
@@ -38,7 +24,7 @@ This code is built for use with **Ripser** and works with both full and landmark
 - `fig1_dataset` folder contains the torus distance matrix as well as the point cloud used to create the top panel (torus) of Figure 1 in our paper.
 
 The distance matrix used to create the bottom panel (wedge sum) in Figure 1 of the paper is available [here](https://drive.google.com/drive/folders/1Gj4urjBrd7jWnAEoz1Hp7-ED4OdexG_l?usp=sharing).
- 
+
 
 ---
 
@@ -149,10 +135,5 @@ See docstring inside `cup_length_utils.py` for full documentation.
 - `numpy`
 - `scipy==1.10.1`
 
----
-
-## 📬 Questions?
-
-Feel free to open an issue or contact ekaterina.s.ivshina@gmail.com for questions or suggestions.
 
  
